@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="qOv09U" name="HelloWorld2" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="yH8QR8" name="HelloWorld2">
+    <GROUP id="{8BCCB21A-5CA0-FB99-13B7-EC4DB6B05D8D}" name="Source">
+      <FILE id="Xnf1gZ" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="Q1cTtr" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="ytKdAq" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="HelloWorld2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="HelloWorld2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Users/rpph3/Desktop/Programing/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Users/rpph3/Desktop/Programing/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Users/rpph3/Desktop/Programing/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Users/rpph3/Desktop/Programing/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Users/rpph3/Desktop/Programing/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="HelloWorld2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="HelloWorld2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Users/rpph3/Desktop/Programing/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Users/rpph3/Desktop/Programing/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Users/rpph3/Desktop/Programing/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Users/rpph3/Desktop/Programing/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Users/rpph3/Desktop/Programing/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
